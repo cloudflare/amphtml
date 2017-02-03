@@ -33,6 +33,10 @@ import {
   cloudflareIsA4AEnabled,
 } from
 '../extensions/amp-ad-network-cloudflare-impl/0.1/cloudflare-a4a-config';
+import {
+  acmeIsA4AEnabled,
+} from
+'../extensions/amp-ad-network-acme-impl/0.1/acme-a4a-config';
 import {getMode} from '../src/mode';
 import {map} from '../src/utils/object';
 
@@ -54,6 +58,7 @@ export const a4aRegistry = map({
   'doubleclick': doubleclickIsA4AEnabled,
   'triplelift': tripleliftIsA4AEnabled,
   'cloudflare': cloudflareIsA4AEnabled,
+  'acme': acmeIsA4AEnabled,
   // TODO: Add new ad network implementation "is enabled" functions here.  Note:
   // if you add a function here that requires a new "import", above, you'll
   // probably also need to add a whitelist exception to
