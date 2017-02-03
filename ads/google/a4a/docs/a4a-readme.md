@@ -42,7 +42,7 @@ If you are a creative agency, please reach out to us via Github so we can put yo
 
 ## Ad Networks
 
-For ad networks wanting to deliver A4A creative format can use Cloudflare’s inline signing service to cryptographically sign their creatives. The request goes through Cloudflare’s edge and fetches an AMP creative from the Ad server. After it receives the creative, if it is a valid A4A creative. If the creative is valid, it rewrites the creative with a cryptographic signature, correct headers and sends it back to the page.
+For ad networks wanting to deliver A4A creative format can use Cloudflare’s inline signing service to cryptographically sign their creatives. The request goes through Cloudflare’s edge and fetches an AMP creative from the Ad server. If the creative is valid, it rewrites the creative with a cryptographic signature, correct headers and sends it back to the page.
 If invalid, it will treat the creative as a Legacy Ad and render in an iframe using delayed ad rendering.
 
 ![Image of Rendering Flow](./3.png)
