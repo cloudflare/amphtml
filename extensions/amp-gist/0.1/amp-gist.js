@@ -15,7 +15,7 @@
  */
 
 /**
- * @fileoverview Embeds a Github gist
+ * @fileoverview Embeds a GitHub gist
  *
  * Example:
  * <code>

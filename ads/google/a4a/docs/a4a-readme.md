@@ -82,6 +82,6 @@ Yes. Learn more about it [here](https://github.com/ampproject/amphtml/blob/maste
 The public [website](https://ampproject.org/ads) is a good place to start. 
 
 #### I can’t find what I need, where can I ask questions?
-You can open a [Github Issue](https://github.com/ampproject/amphtml/issues/new). 
+You can open a [GitHub Issue](https://github.com/ampproject/amphtml/issues/new). 
 
 
