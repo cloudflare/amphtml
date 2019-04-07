@@ -442,7 +442,7 @@ function main(argv) {
       }
       command.verifyVisualDiffTests();
     } else {
-      // Generates a blank Percy build to satisfy the required Github check.
+      // Generates a blank Percy build to satisfy the required GitHub check.
       command.runVisualDiffTests(/* opt_mode */ 'skip');
     }
     if (buildTargets.has('VALIDATOR_WEBUI')) {

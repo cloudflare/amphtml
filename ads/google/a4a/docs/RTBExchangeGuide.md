@@ -71,9 +71,9 @@ SSPs will need to provide a new field in the bid response to allow bidders to re
 * It is up to the exchange or publisher ad server to determine how these URLs are fired, but <code><[amp-pixel](https://www.ampproject.org/docs/reference/components/amp-pixel)></code> and <code><[amp-analytics](https://www.ampproject.org/docs/reference/components/amp-analytics)></code> can handle most impression tracking and analytics use cases.
 
 ## Background Docs
-* [AMP Ads for AMP Pages (Github)](https://github.com/ampproject/amphtml/issues/3133)
-* [AMP Ad Creative Format Spec (Github)](https://github.com/google/amphtml/blob/master/extensions/amp-a4a/amp-a4a-format.md)
-* [AMP Ads Overview (Github)](https://github.com/ampproject/amphtml/blob/master/ads/google/a4a/docs/a4a-readme.md)
+* [AMP Ads for AMP Pages (GitHub)](https://github.com/ampproject/amphtml/issues/3133)
+* [AMP Ad Creative Format Spec (GitHub)](https://github.com/google/amphtml/blob/master/extensions/amp-a4a/amp-a4a-format.md)
+* [AMP Ads Overview (GitHub)](https://github.com/ampproject/amphtml/blob/master/ads/google/a4a/docs/a4a-readme.md)
 * [AMP Ads Website from the AMP Project](https://www.ampproject.org/learn/who-uses-amp/amp-ads/)
 * [Example AMP Ads](https://ampbyexample.com/amp-ads/#amp-ads/introduction)
 * [Speed comparison](https://ampbyexample.com/amp-ads/introduction/amp_ads_vs_non-amp_ads/): see how fast an AMP Ad loads in comparison to a regular ad. Best viewed on a 3G connection.
