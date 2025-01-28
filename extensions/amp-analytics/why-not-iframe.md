@@ -12,5 +12,5 @@ With AMP, The AMP Project decided to encourage the use of the AMP Analytics syst
 * **Latency/Reliability:** Iframes can have several limitations compared to scripts running in the main document. Iframe may not get rendered in a timely fashion or it may be slower to load. This will result in inaccurate data.
 
 The disadvantages of this approach are:
-* **Less data points (initially):** Initially, the `amp-analytics` extension's data collection will not be as complete as existing systems. This is being addressed by multiple partners in the Github repo. The AMP Project is committed to enhancing the capabilities of amp-analytics based on the foundation that’s been built thus far.
+* **Less data points (initially):** Initially, the `amp-analytics` extension's data collection will not be as complete as existing systems. This is being addressed by multiple partners in the GitHub repo. The AMP Project is committed to enhancing the capabilities of amp-analytics based on the foundation that’s been built thus far.
 * **Adaption to a new technical approach:** For example, you may use a client-side collection technique that needs to be substituted for a server-side solution.

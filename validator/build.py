@@ -170,7 +170,7 @@ def GenValidatorProtoascii(out_dir):
 
   protoascii_segments = [open('validator-main.protoascii').read()]
   extensions = glob.glob('extensions/*/validator-*.protoascii')
-  # In the Github project, the extensions are located in a sibling directory
+  # In the GitHub project, the extensions are located in a sibling directory
   # to the validator rather than a child directory.
   if not extensions:
     extensions = glob.glob('../extensions/*/validator-*.protoascii')
@@ -509,7 +509,7 @@ def GenerateTestRunner(out_dir):
   logging.info('entering ...')
   f = open('%s/test_runner' % out_dir, 'w')
   extensions_dir = 'extensions'
-  # In the Github project, the extensions are located in a sibling directory
+  # In the GitHub project, the extensions are located in a sibling directory
   # to the validator rather than a child directory.
   if not os.path.isdir(extensions_dir):
     extensions_dir = '../extensions'

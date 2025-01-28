@@ -123,8 +123,8 @@ function getGitMetadata() {
   var gitMetadata = { logs: [], tag: undefined, baseTag: undefined };
   return getLastGitTag(gitMetadata)
       .then(getGitLog)
-      .then(getGithubPullRequestsMetadata)
-      .then(getGithubFilesMetadata)
+      .then(getGitHubPullRequestsMetadata)
+      .then(getGitHubFilesMetadata)
       .then(getBaseCanaryVersion)
       .then(buildChangelog)
       .then(function(gitMetadata) {
@@ -368,8 +368,8 @@ function getGitLog(gitMetadata) {
  * @param {!GitMetadataDef} gitMetadata
  * @return {!Promise<!GitMetadataDef>}
  */
-function getGithubPullRequestsMetadata(gitMetadata) {
-  // (erwinm): Github seems to only return data for the first 3 pages
+function getGitHubPullRequestsMetadata(gitMetadata) {
+  // (erwinm): GitHub seems to only return data for the first 3 pages
   // from my manual testing.
   return BBPromise.all([
       getClosedPullRequests(1),
@@ -411,7 +411,7 @@ function getGithubPullRequestsMetadata(gitMetadata) {
  * @param {!GitMetadataDef}
  * @return {!Promise<!GitMetadataDef>}
  */
-function getGithubFilesMetadata(gitMetadata) {
+function getGitHubFilesMetadata(gitMetadata) {
   const githubFileRequests = gitMetadata.logs.map(log => {
     if (log.pr) {
       const fileOptions = extend({}, pullOptions);

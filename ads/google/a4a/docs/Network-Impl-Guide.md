@@ -67,7 +67,7 @@ The [AMP Ad](https://github.com/ampproject/amphtml/blob/master/extensions/amp-ad
 
 To create an ad network implementation, the following steps must be taken:
 
-Create a new extension within the extensions section in the AMP HTML Github [repository](https://github.com/ampproject/amphtml) whose path and name match the type attribute given for amp ad element as follows:
+Create a new extension within the extensions section in the AMP HTML GitHub [repository](https://github.com/ampproject/amphtml) whose path and name match the type attribute given for amp ad element as follows:
 
 ![Image of File Hierarchy](./2.png)
 Figure 2: A4A Extension File Hierarchy
